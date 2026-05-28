@@ -19,7 +19,7 @@ window.onscroll = () => {
         let height = sec.offsetHeight;
 
         if(top >= offset && top <offset + height){
-            navlinks.forEach.apply(link => {
+            navlinks.forEach(link => {
                 link.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
