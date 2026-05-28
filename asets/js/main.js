@@ -19,7 +19,7 @@ window.onscroll = () => {
         let height = sec.offsetHeight;
 
         if(top >= offset && top <offset + height){
-            navLinks.forEach.apply(link => {
+            navlinks.forEach.apply(link => {
                 link.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
@@ -28,7 +28,7 @@ window.onscroll = () => {
 
     /*================= Sticky navbar ================================*/
     let header = document.querySelector('header');
-    header.classList.toggle('sticky', windows.scrollY > 100);
+    header.classList.toggle('sticky', window.scrollY > 100);
 
     /*================= remove icon dan navbar ================================*/
     menuIcon.classList.remove('fa-xmark');
