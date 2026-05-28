@@ -485,6 +485,7 @@ span{
     section{
         min-height: auto;
         padding: 8rem 3% 4rem;
+    }
 
     .navbar{
         position: absolute;
